@@ -1,0 +1,677 @@
+<mxfile host="app.diagrams.net" modified="2022-10-25T11:00:13.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IwPATHRaDBQC3zR7wkRc" compressed="false" version="20.5.1" type="device">
+  <diagram id="HzwBxl93tHECHk_R8a2n" name="Page-1">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-1" value="Список заданий&lt;br&gt;&lt;hr&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="135" y="1005" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-4" target="av9_w_H9WeaT8YNI_YCN-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="860" as="sourcePoint" />
+            <mxPoint x="905" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-7" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-4" target="av9_w_H9WeaT8YNI_YCN-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="840" as="sourcePoint" />
+            <mxPoint x="475" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-9" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-10" value="&lt;b&gt;Диалог открытия смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Открыть смену?&quot; с двумя вариантами - Открыть или Отмена&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="860" y="985" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-15" value="&lt;b&gt;Открытие смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1155" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-20" value="Переход на выбранное задание" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-15" target="av9_w_H9WeaT8YNI_YCN-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="1030" as="sourcePoint" />
+            <mxPoint x="678.9200000000001" y="1068.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-22" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-23" value="&lt;b&gt;Проверка смены другого оператора&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;На выбранном РЦ открыта смена другого оператора?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="135" y="1155" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-23" target="av9_w_H9WeaT8YNI_YCN-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="578" y="875.98" as="sourcePoint" />
+            <mxPoint x="430" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-25" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-28" value="&lt;b&gt;Диалог закрытия чужой смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Закрыть личную смену Х или открыть еще одну для совместной работы?&quot; с двумя вариантами - Закрыть или Совместная работа&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1340" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-28" target="av9_w_H9WeaT8YNI_YCN-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1590" as="sourcePoint" />
+            <mxPoint x="500" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-30" value="Закрыть" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingLeft=5;spacingRight=5;" parent="av9_w_H9WeaT8YNI_YCN-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-34" value="&lt;b&gt;Проверка личной смены на другом станке&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Открыта личная смена на другом РЦ?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1155" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-34" target="av9_w_H9WeaT8YNI_YCN-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1600" as="sourcePoint" />
+            <mxPoint x="380" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-36" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-35" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="12" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.468;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-34" target="av9_w_H9WeaT8YNI_YCN-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1280" as="sourcePoint" />
+            <mxPoint x="796.9499999999998" y="1563.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-38" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-33" target="av9_w_H9WeaT8YNI_YCN-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1370" as="sourcePoint" />
+            <mxPoint x="630" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-40" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-45" value="&lt;b&gt;Диалог переноса смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Перенести вашу личную смену с РЦ N или открыть еще одну для одновременной работы?&quot; с двумя вариантами - Перенести или Открыть дополнительную&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="810" y="1340" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-45" target="av9_w_H9WeaT8YNI_YCN-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="1670" as="sourcePoint" />
+            <mxPoint x="640" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-47" value="Перенести" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingTop=0;spacing=0;" parent="av9_w_H9WeaT8YNI_YCN-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-50" value="&lt;b&gt;Перенос своей смена на выбранный РЦ&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="1360" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.407;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-50" target="av9_w_H9WeaT8YNI_YCN-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1820" as="sourcePoint" />
+            <mxPoint x="1340" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-55" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-54" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;" parent="1" source="av9_w_H9WeaT8YNI_YCN-20" target="av9_w_H9WeaT8YNI_YCN-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-4" value="&lt;b&gt;Проверки смен&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;На выбранном РЦ открыта смена другого оператора?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ИЛИ&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Открыта личная смена на другом РЦ?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="480" y="980" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-33" value="&lt;b&gt;Закрытие чужой смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;br&gt;При ошибке - в список заданий&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1365" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-10" target="av9_w_H9WeaT8YNI_YCN-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460.0000000000005" y="820" as="sourcePoint" />
+            <mxPoint x="1090" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-60" value="Открыть" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-1" target="av9_w_H9WeaT8YNI_YCN-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1050" as="sourcePoint" />
+            <mxPoint x="730" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-5" value="Клик по заданию" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-23" target="av9_w_H9WeaT8YNI_YCN-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="990" as="sourcePoint" />
+            <mxPoint x="660" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-27" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-45" target="av9_w_H9WeaT8YNI_YCN-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="1630" as="sourcePoint" />
+            <mxPoint x="1200" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-49" value="Открыть дополнительную" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-61" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#CC0000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-10" target="av9_w_H9WeaT8YNI_YCN-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="880" as="sourcePoint" />
+            <mxPoint x="260" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-62" value="&lt;font color=&quot;#000000&quot;&gt;Отмена&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;" parent="av9_w_H9WeaT8YNI_YCN-61" vertex="1" connectable="0">
+          <mxGeometry x="0.0875" y="73" relative="1" as="geometry">
+            <mxPoint x="270" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-28" target="av9_w_H9WeaT8YNI_YCN-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1440" as="sourcePoint" />
+            <mxPoint x="810" y="1325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-32" value="Совместная работа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-63" value="Список заданий&lt;br&gt;&lt;hr&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="135" y="80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-68" value="&lt;b&gt;Диалог открытия смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Открыть смену?&quot; с двумя вариантами - Открыть или Отмена&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="820" y="60" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-69" value="&lt;b&gt;Открытие смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="65" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-70" value="Переход на выбранное задание" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-69" target="av9_w_H9WeaT8YNI_YCN-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="180" as="sourcePoint" />
+            <mxPoint x="648.9200000000001" y="218.6400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-72" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-71" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-73" value="&lt;b&gt;Проверка смены другого оператора&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;На выбранном РЦ открыта смена другого оператора?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="105" y="305" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-73" target="av9_w_H9WeaT8YNI_YCN-117" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="25.980000000000018" as="sourcePoint" />
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-75" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-74" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-76" value="&lt;b&gt;Диалог закрытия чужой смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Закрыть личную смену Х или открыть еще одну для совместной работы?&quot; с двумя вариантами - Закрыть или Совместная работа&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="100" y="490" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-76" target="av9_w_H9WeaT8YNI_YCN-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="740" as="sourcePoint" />
+            <mxPoint x="470" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-78" value="Закрыть" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingLeft=5;spacingRight=5;" parent="av9_w_H9WeaT8YNI_YCN-77" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-79" value="&lt;b&gt;Проверка личной смены на другом станке&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Открыта личная смена на другом РЦ?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="570" y="305" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-79" target="av9_w_H9WeaT8YNI_YCN-68" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="750" as="sourcePoint" />
+            <mxPoint x="350" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-81" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-80" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-17" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-79" target="av9_w_H9WeaT8YNI_YCN-86" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="430" as="sourcePoint" />
+            <mxPoint x="766.95" y="713.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-83" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-82" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-84" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.124;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="av9_w_H9WeaT8YNI_YCN-117" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="510" as="sourcePoint" />
+            <mxPoint x="600" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-85" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-84" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-86" value="&lt;b&gt;Диалог переноса смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Перенести вашу личную смену с РЦ N или открыть еще одну для одновременной работы?&quot; с двумя вариантами - Перенести или Открыть дополнительную&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="780" y="490" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-86" target="av9_w_H9WeaT8YNI_YCN-89" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="820" as="sourcePoint" />
+            <mxPoint x="610" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-88" value="Перенести" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingTop=0;spacing=0;" parent="av9_w_H9WeaT8YNI_YCN-87" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-89" value="&lt;b&gt;Перенос своей смена на выбранный РЦ&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="510" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-90" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.407;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-89" target="av9_w_H9WeaT8YNI_YCN-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="970" as="sourcePoint" />
+            <mxPoint x="1310" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-91" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-90" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;" parent="1" source="av9_w_H9WeaT8YNI_YCN-70" target="av9_w_H9WeaT8YNI_YCN-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-94" value="&lt;b&gt;Закрытие чужой смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;br&gt;При ошибке - в список заданий&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="470" y="515" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-68" target="av9_w_H9WeaT8YNI_YCN-69" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430.0000000000005" y="-30" as="sourcePoint" />
+            <mxPoint x="1060" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-96" value="Открыть" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-95" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-63" target="av9_w_H9WeaT8YNI_YCN-73" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="200" as="sourcePoint" />
+            <mxPoint x="700" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-98" value="Клик по заданию" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-97" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-73" target="av9_w_H9WeaT8YNI_YCN-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="140" as="sourcePoint" />
+            <mxPoint x="630" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-100" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-99" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-101" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-86" target="av9_w_H9WeaT8YNI_YCN-114" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="780" as="sourcePoint" />
+            <mxPoint x="1040" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-102" value="Открыть дополнительную" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-101" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-103" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#CC0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-68" target="av9_w_H9WeaT8YNI_YCN-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="30" as="sourcePoint" />
+            <mxPoint x="230" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-104" value="&lt;font color=&quot;#000000&quot;&gt;Отмена&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;" parent="av9_w_H9WeaT8YNI_YCN-103" vertex="1" connectable="0">
+          <mxGeometry x="0.0875" y="73" relative="1" as="geometry">
+            <mxPoint x="191" y="-73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.689;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-76" target="av9_w_H9WeaT8YNI_YCN-117" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="sourcePoint" />
+            <mxPoint x="780" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-106" value="Совместная работа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-105" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-107" value="Упрощенная схема" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="480" y="70" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-112" value="Исходная схема" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="480" y="850" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-114" value="&lt;b&gt;Открытие доп. смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="860" y="305" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-115" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-114" target="av9_w_H9WeaT8YNI_YCN-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="240" as="sourcePoint" />
+            <mxPoint x="1290" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-116" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-115" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-117" value="&lt;b&gt;Проверка личной смены на этом станке&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Открыта личная смена на этом РЦ?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="500" y="160" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-118" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-117" target="av9_w_H9WeaT8YNI_YCN-79" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="968.2758620689656" y="270" as="sourcePoint" />
+            <mxPoint x="1120" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-119" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-118" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-122" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-117" target="av9_w_H9WeaT8YNI_YCN-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="180" as="sourcePoint" />
+            <mxPoint x="981.6799999999998" y="298.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-123" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-122" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-124" value="Список заданий&lt;br&gt;&lt;hr&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1625" y="80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-125" value="&lt;b&gt;Диалог открытия смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Открыть смену?&quot; с двумя вариантами - Открыть или Отмена&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2310" y="60" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-126" value="&lt;b&gt;Открытие смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="2655" y="65" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-127" value="Переход на выбранное задание" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2710" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-128" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-126" target="av9_w_H9WeaT8YNI_YCN-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2310" y="180" as="sourcePoint" />
+            <mxPoint x="2138.92" y="218.6400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-129" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-128" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-130" value="&lt;b&gt;Проверка смены другого оператора&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;На выбранном РЦ открыта смена другого оператора?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="1595" y="305" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-131" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-130" target="av9_w_H9WeaT8YNI_YCN-136" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2038" y="25.980000000000018" as="sourcePoint" />
+            <mxPoint x="1920" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-132" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-131" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-133" value="&lt;b&gt;Диалог замены чужой смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Заменить личную смену Х или открыть еще одну для совместной работы?&quot; с двумя вариантами - Заменить или Совместная работа&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="490" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-134" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-133" target="av9_w_H9WeaT8YNI_YCN-150" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="740" as="sourcePoint" />
+            <mxPoint x="1960" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-135" value="Заменить своей" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingLeft=5;spacingRight=5;" parent="av9_w_H9WeaT8YNI_YCN-134" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-136" value="&lt;b&gt;Проверка личной смены на другом станке&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Открыта личная смена на другом РЦ?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="305" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-137" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-136" target="av9_w_H9WeaT8YNI_YCN-125" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="750" as="sourcePoint" />
+            <mxPoint x="1840" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-138" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-137" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-17" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-136" target="av9_w_H9WeaT8YNI_YCN-143" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="430" as="sourcePoint" />
+            <mxPoint x="2256.95" y="713.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-140" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-139" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-141" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1.007;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-150" target="av9_w_H9WeaT8YNI_YCN-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2020" y="510" as="sourcePoint" />
+            <mxPoint x="2900" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2180" y="660" />
+              <mxPoint x="2980" y="660" />
+              <mxPoint x="2980" y="357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-142" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-141" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-143" value="&lt;b&gt;Диалог переноса смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Отображается диалог &quot;Перенести вашу личную смену с РЦ N или открыть еще одну для одновременной работы?&quot; с двумя вариантами - Перенести или Открыть дополнительную&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2270" y="490" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-144" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-143" target="av9_w_H9WeaT8YNI_YCN-146" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2010" y="820" as="sourcePoint" />
+            <mxPoint x="2100" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-145" value="Перенести" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingTop=0;spacing=0;" parent="av9_w_H9WeaT8YNI_YCN-144" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-146" value="&lt;b&gt;Перенос своей смена на выбранный РЦ&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;При ошибке - в список заданий&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="2650" y="510" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-147" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.407;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-146" target="av9_w_H9WeaT8YNI_YCN-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2250" y="970" as="sourcePoint" />
+            <mxPoint x="2800" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-148" value="Успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-147" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-149" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;" parent="1" source="av9_w_H9WeaT8YNI_YCN-127" target="av9_w_H9WeaT8YNI_YCN-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-150" value="&lt;b&gt;Замена чужой смены&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Уходит запрос на бэк, ждем ответа&lt;br&gt;При ошибке - в список заданий&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacing=2;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="515" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-125" target="av9_w_H9WeaT8YNI_YCN-126" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2920.0000000000005" y="-30" as="sourcePoint" />
+            <mxPoint x="2550" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-152" value="Открыть" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-151" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-153" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-124" target="av9_w_H9WeaT8YNI_YCN-167" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2140" y="200" as="sourcePoint" />
+            <mxPoint x="2190" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-154" value="Клик по заданию" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-153" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-155" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-130" target="av9_w_H9WeaT8YNI_YCN-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2080" y="140" as="sourcePoint" />
+            <mxPoint x="2120" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-156" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-155" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-157" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-143" target="av9_w_H9WeaT8YNI_YCN-126" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2480" y="780" as="sourcePoint" />
+            <mxPoint x="2465" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-158" value="Открыть дополнительную" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-157" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-41" y="74" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-159" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#CC0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-125" target="av9_w_H9WeaT8YNI_YCN-124" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2400" y="30" as="sourcePoint" />
+            <mxPoint x="1720" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-160" value="&lt;font color=&quot;#000000&quot;&gt;Отмена&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;" parent="av9_w_H9WeaT8YNI_YCN-159" vertex="1" connectable="0">
+          <mxGeometry x="0.0875" y="73" relative="1" as="geometry">
+            <mxPoint x="191" y="-73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-161" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-133" target="av9_w_H9WeaT8YNI_YCN-136" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1890" y="590" as="sourcePoint" />
+            <mxPoint x="2050" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-162" value="Совместная работа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-161" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="-11" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-163" value="Упрощенная схема 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="1970" y="70" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-167" value="&lt;b&gt;Проверка личной смены на этом станке&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Открыта личная смена на этом РЦ?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=8;spacingLeft=8;spacingRight=8;spacingBottom=8;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="160" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-168" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-167" target="av9_w_H9WeaT8YNI_YCN-130" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1810" y="210" as="sourcePoint" />
+            <mxPoint x="1720" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-169" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-168" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-170" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="av9_w_H9WeaT8YNI_YCN-167" target="av9_w_H9WeaT8YNI_YCN-127" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="180" as="sourcePoint" />
+            <mxPoint x="2471.68" y="298.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="av9_w_H9WeaT8YNI_YCN-171" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="av9_w_H9WeaT8YNI_YCN-170" vertex="1" connectable="0">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
