@@ -1,13 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T04:26:30.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IUpL5a7DGMn-e9KIJlaS" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T04:45:17.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sncSQluw0j16FuOlNgWz" version="20.5.1" type="github">
   <diagram id="wsY2lKpN4-8B16u1lQ9g" name="Complete job">
-    <mxGraphModel dx="2585" dy="2529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2188" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pmpArDnH6loK2Ls61LQW-1" value="Задание" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="50" y="30" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-2" value="Завершить" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-2" value="Завершить" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="144.5" y="90" as="sourcePoint" />
             <mxPoint x="144.5" y="255" as="targetPoint" />
@@ -25,8 +22,8 @@
         <mxCell id="pmpArDnH6loK2Ls61LQW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-7" target="pmpArDnH6loK2Ls61LQW-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-7" value="Оператор должен разделить причину овертайма?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="260" width="330" height="60" as="geometry" />
+        <mxCell id="pmpArDnH6loK2Ls61LQW-7" value="Проверка того, должен ли оператор должен разделить причину овертайма" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="260" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-23" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-49" target="pmpArDnH6loK2Ls61LQW-22">
           <mxGeometry relative="1" as="geometry">
@@ -36,8 +33,8 @@
         <mxCell id="pmpArDnH6loK2Ls61LQW-85" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-22" target="pmpArDnH6loK2Ls61LQW-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1369" y="580" />
-              <mxPoint x="790" y="580" />
+              <mxPoint x="1180" y="510" />
+              <mxPoint x="640" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,16 +42,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-22" value="Разделение оветайма" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="260" width="187.5" height="60" as="geometry" />
+          <mxGeometry x="1085" y="260" width="187.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-26" value="Завершение задания" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="730" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-31" target="pmpArDnH6loK2Ls61LQW-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-31" value="Проверка того, что производство равно запланированному" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="587.5" width="185" height="60" as="geometry" />
+          <mxGeometry x="52.5" y="587.5" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-38" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-35" target="pmpArDnH6loK2Ls61LQW-37">
           <mxGeometry relative="1" as="geometry" />
@@ -63,7 +60,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-35" value="У задания есть поле Выпуск" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="68.75" y="717.5" width="147.5" height="80" as="geometry" />
+          <mxGeometry x="71.25" y="1047.5" width="147.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-42" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-37" target="pmpArDnH6loK2Ls61LQW-41">
           <mxGeometry relative="1" as="geometry" />
@@ -72,22 +69,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-37" value="Мастер должен подтверждать закрытие задания с недопроизводством или перепроизводством&lt;br&gt;&lt;b&gt;И&lt;/b&gt;&lt;br&gt;Выпуск не равен запланированному?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="550" width="260" height="415" as="geometry" />
+          <mxGeometry x="295" y="880" width="260" height="415" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-86" value="Подтверждение" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-41" target="pmpArDnH6loK2Ls61LQW-44">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-86" value="Подтверждение" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-41" target="pmpArDnH6loK2Ls61LQW-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-94" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-41" target="pmpArDnH6loK2Ls61LQW-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-41" value="Подтверждение мастером выпуска не по плану" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="365" y="1037.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-44" target="pmpArDnH6loK2Ls61LQW-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-44" value="Проверка недопроизводства" style="whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="727.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="1057.51" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-50" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-47" target="pmpArDnH6loK2Ls61LQW-49">
           <mxGeometry relative="1" as="geometry" />
@@ -101,13 +98,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-47" value="Есть овертайм?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="235" width="140" height="110" as="geometry" />
+          <mxGeometry x="570" y="235" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-58" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-49" target="pmpArDnH6loK2Ls61LQW-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-49" value="Настройка &lt;br&gt;&quot;Оператор должен разделять причину овертайма&quot; &lt;br&gt;включена?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="187.5" width="240" height="205" as="geometry" />
+          <mxGeometry x="760" y="213.75" width="240" height="152.5" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-84" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-57" target="pmpArDnH6loK2Ls61LQW-26">
           <mxGeometry relative="1" as="geometry" />
@@ -116,7 +113,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-57" value="Ввод причины оветайма задания" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
-          <mxGeometry x="990" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-64" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-61" target="pmpArDnH6loK2Ls61LQW-63">
           <mxGeometry relative="1" as="geometry" />
@@ -125,39 +122,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-61" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Настройка Требовать указывать причину недопроизводства?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="671.25" width="220" height="172.5" as="geometry" />
+          <mxGeometry x="810" y="1001.25" width="220" height="172.5" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-74" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-63" target="pmpArDnH6loK2Ls61LQW-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-76" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.867;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-63" target="pmpArDnH6loK2Ls61LQW-7">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-76" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-63" target="pmpArDnH6loK2Ls61LQW-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-63" value="Превышена ли норма по последней операции?" style="whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="915" y="910" width="170" height="60" as="geometry" />
+          <mxGeometry x="835" y="680" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-68" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-65" target="pmpArDnH6loK2Ls61LQW-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-69" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-65">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-69" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-65" target="pmpArDnH6loK2Ls61LQW-63">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="870" as="sourcePoint" />
             <mxPoint x="1080" y="930" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1255" y="930" />
-              <mxPoint x="1085" y="930" />
+              <mxPoint x="1160" y="725" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-65" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Есть ли недопроизводство по этому заданию?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="695.63" width="150" height="123.75" as="geometry" />
+          <mxGeometry x="1085" y="1025.63" width="150" height="123.75" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-72" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-67" target="pmpArDnH6loK2Ls61LQW-63">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-72" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-67" target="pmpArDnH6loK2Ls61LQW-63">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1480" y="950" />
+              <mxPoint x="1350" y="695" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -165,9 +161,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-67" value="Ввод причины недопроизводства" style="whiteSpace=wrap;html=1;rounded=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1425" y="727.505" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="1057.505" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-77" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.958;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-73" target="pmpArDnH6loK2Ls61LQW-7">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-77" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-73" target="pmpArDnH6loK2Ls61LQW-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="350" as="targetPoint" />
           </mxGeometry>
@@ -176,7 +172,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-73" value="Ввод причины превышения&amp;nbsp; последней операции" style="whiteSpace=wrap;html=1;rounded=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="910" y="1050" width="180" height="60" as="geometry" />
+          <mxGeometry x="830" y="550" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-78" value="Проверка, нет ли недопроизводства/перепроизводства?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="-370" width="185" height="60" as="geometry" />
@@ -197,22 +193,31 @@
           <mxGeometry x="257.5" y="-180" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-87" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;comic=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="727.495" width="120" height="60" as="geometry" />
+          <mxGeometry x="1490" y="1057.5149999999999" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-89" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="1576.25" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1350" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-91" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1215" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-93" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="165" y="1037.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-95" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;comic=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="1110" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-97" value="Исходное состояние" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="82.5" y="887.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="82.5" y="1199.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-1" value="Задание" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-99" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="pmpArDnH6loK2Ls61LQW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="144.5" y="90" as="sourcePoint" />
+            <mxPoint x="144.5" y="255" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
