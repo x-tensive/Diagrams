@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T04:45:17.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sncSQluw0j16FuOlNgWz" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T05:09:21.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="B44n5WdLhJWFvaBkC8XJ" version="20.5.1" type="github">
   <diagram id="wsY2lKpN4-8B16u1lQ9g" name="Complete job">
-    <mxGraphModel dx="2188" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2087" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,7 +112,7 @@
         <mxCell id="pmpArDnH6loK2Ls61LQW-92" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-57" target="pmpArDnH6loK2Ls61LQW-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pmpArDnH6loK2Ls61LQW-57" value="Ввод причины оветайма задания" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+        <mxCell id="pmpArDnH6loK2Ls61LQW-57" value="Ввод причины превышения длительности задания" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="820" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-64" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-61" target="pmpArDnH6loK2Ls61LQW-63">
@@ -196,7 +196,7 @@
           <mxGeometry x="1490" y="1057.5149999999999" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-89" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1360" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pmpArDnH6loK2Ls61LQW-91" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1030" y="420" width="120" height="60" as="geometry" />
@@ -218,6 +218,14 @@
             <mxPoint x="144.5" y="90" as="sourcePoint" />
             <mxPoint x="144.5" y="255" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.9565217391305" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-100" value="Это странный кейс" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-78.75" y="1169.38" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
