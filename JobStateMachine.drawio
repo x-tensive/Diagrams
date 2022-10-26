@@ -1,0 +1,233 @@
+<mxfile host="app.diagrams.net" modified="2022-10-26T05:09:21.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="B44n5WdLhJWFvaBkC8XJ" version="20.5.1" type="github">
+  <diagram id="wsY2lKpN4-8B16u1lQ9g" name="Complete job">
+    <mxGraphModel dx="2087" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pmpArDnH6loK2Ls61LQW-2" value="Завершить" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="144.5" y="90" as="sourcePoint" />
+            <mxPoint x="144.5" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-8" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-4" target="pmpArDnH6loK2Ls61LQW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-32" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-4" target="pmpArDnH6loK2Ls61LQW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-4" value="Задание - ТОиР?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="250" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-7" target="pmpArDnH6loK2Ls61LQW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-7" value="Проверка того, должен ли оператор должен разделить причину овертайма" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="260" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-23" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-49" target="pmpArDnH6loK2Ls61LQW-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="878.75" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-85" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-22" target="pmpArDnH6loK2Ls61LQW-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="510" />
+              <mxPoint x="640" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-90" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-22" target="pmpArDnH6loK2Ls61LQW-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-22" value="Разделение оветайма" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="260" width="187.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-26" value="Завершение задания" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-31" target="pmpArDnH6loK2Ls61LQW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-31" value="Проверка того, что производство равно запланированному" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="587.5" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-38" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-35" target="pmpArDnH6loK2Ls61LQW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-98" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-35" target="pmpArDnH6loK2Ls61LQW-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-35" value="У задания есть поле Выпуск" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="71.25" y="1047.5" width="147.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-42" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-37" target="pmpArDnH6loK2Ls61LQW-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-45" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-37" target="pmpArDnH6loK2Ls61LQW-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-37" value="Мастер должен подтверждать закрытие задания с недопроизводством или перепроизводством&lt;br&gt;&lt;b&gt;И&lt;/b&gt;&lt;br&gt;Выпуск не равен запланированному?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="880" width="260" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-86" value="Подтверждение" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-41" target="pmpArDnH6loK2Ls61LQW-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-94" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-41" target="pmpArDnH6loK2Ls61LQW-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-41" value="Подтверждение мастером выпуска не по плану" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="365" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-44" target="pmpArDnH6loK2Ls61LQW-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-44" value="Проверка недопроизводства" style="whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1057.51" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-50" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-47" target="pmpArDnH6loK2Ls61LQW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-47" target="pmpArDnH6loK2Ls61LQW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-60" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="pmpArDnH6loK2Ls61LQW-54">
+          <mxGeometry x="-0.2188" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-47" value="Есть овертайм?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="235" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-58" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-49" target="pmpArDnH6loK2Ls61LQW-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-49" value="Настройка &lt;br&gt;&quot;Оператор должен разделять причину овертайма&quot; &lt;br&gt;включена?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="213.75" width="240" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-84" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-57" target="pmpArDnH6loK2Ls61LQW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-92" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-57" target="pmpArDnH6loK2Ls61LQW-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-57" value="Ввод причины превышения длительности задания" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-64" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-61" target="pmpArDnH6loK2Ls61LQW-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-66" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-61" target="pmpArDnH6loK2Ls61LQW-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-61" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Настройка Требовать указывать причину недопроизводства?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1001.25" width="220" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-74" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-63" target="pmpArDnH6loK2Ls61LQW-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-76" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-63" target="pmpArDnH6loK2Ls61LQW-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-63" value="Превышена ли норма по последней операции?" style="whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="835" y="680" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-68" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-65" target="pmpArDnH6loK2Ls61LQW-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-69" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-65" target="pmpArDnH6loK2Ls61LQW-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="870" as="sourcePoint" />
+            <mxPoint x="1080" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-65" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Есть ли недопроизводство по этому заданию?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="1025.63" width="150" height="123.75" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-72" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-67" target="pmpArDnH6loK2Ls61LQW-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-88" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-67" target="pmpArDnH6loK2Ls61LQW-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-67" value="Ввод причины недопроизводства" style="whiteSpace=wrap;html=1;rounded=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1057.505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-77" value="Ввод" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-73" target="pmpArDnH6loK2Ls61LQW-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-96" value="Отмена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-73" target="pmpArDnH6loK2Ls61LQW-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-73" value="Ввод причины превышения&amp;nbsp; последней операции" style="whiteSpace=wrap;html=1;rounded=1;comic=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="830" y="550" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-78" value="Проверка, нет ли недопроизводства/перепроизводства?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-370" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-79" value="Состояние, проверяющее условия" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="-360" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-80" value="Задание - ТОиР?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-290" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-81" value="Условие внутри состояния" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="-270" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-82" value="Ввод причины оветайма" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="-190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-83" value="Состояние, ждущее ввода пользователя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="-180" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-87" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;comic=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1057.5149999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-89" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-91" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-93" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-95" value="Исходное состояние" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;comic=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-97" value="Исходное состояние" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="1199.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-1" value="Задание" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-99" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="pmpArDnH6loK2Ls61LQW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="144.5" y="90" as="sourcePoint" />
+            <mxPoint x="144.5" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="pmpArDnH6loK2Ls61LQW-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.9565217391305" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmpArDnH6loK2Ls61LQW-100" value="Это странный кейс" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-78.75" y="1169.38" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
